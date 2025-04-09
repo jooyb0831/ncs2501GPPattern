@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Pool;
+using UnityEngine.Pool; //유니티에서 제공해주는 ObjectPool이 있음.
+
 public class PooledObject : MonoBehaviour
 {
     ObjectPool pool;
